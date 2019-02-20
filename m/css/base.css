@@ -1,0 +1,111 @@
+* {
+  touch-action: none;
+}
+body,
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #000;
+}
+p {
+  color: #000;
+}
+.beauty {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+body {
+  background: #fff;
+}
+.header {
+  width: 100%;
+  background: #fff;
+  position: fixed;
+  text-align: center;
+  left: 0;
+  top: 0;
+  z-index: 99;
+  height: 90px;
+  color: #000;
+  line-height: 45px;
+}
+.header a {
+  color: #000;
+  font-size: 20px;
+}
+.header a:first-child {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 25px;
+  top: 38px;
+}
+.header a:last-child {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  right: 25px;
+  top: 38px;
+}
+.header span {
+  position: absolute;
+  left: 50%;
+  margin-left: -76px;
+  top: 17px ;
+  width: 153px;
+  height: 68px;
+  background: url("../images/logo.png") no-repeat center;
+  background-size: 80%;
+  font: 500 18px/45px "Microsoft YaHei";
+}
+.contain {
+  padding-top: 90px;
+  padding-bottom: 50px;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.contain-time-title {
+  margin-top: 15px;
+  color: #000;
+  font: 600 16px "Microsoft YaHei";
+  padding: 5px 0 10px 0;
+  border-bottom: 1px dashed #ccc;
+}
+.contain-time-title::before {
+  content: "+";
+  font-size: 20px;
+  padding: 0 8px 0 15px ;
+}
+.footer {
+  width: 100%;
+  background: #fff;
+  position: fixed;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  z-index: 99;
+  height: 45px;
+  border-top: 1px solid #333;
+}
+.footer .active {
+  color: #f91108;
+}
+.footer a {
+  color: #000;
+  display: block;
+  width: 25%;
+  height: 100%;
+  float: left;
+  font-size: 15px;
+  padding-top: 5px;
+}
+.footer a span {
+  display: block;
+  padding-top: 5px;
+  font-size: 13px;
+}

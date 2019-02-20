@@ -1,0 +1,73 @@
+body {
+  background: #f7f7f7;
+}
+.header h3 {
+  font: 600 25px/80px "Microsoft YaHei UI Light";
+}
+.contain {
+  background: #f7f7f7;
+  padding-bottom: 0;
+}
+.contain .mui-table-view .mui-media-object-img {
+  max-width: 70px;
+  line-height: 70px;
+  height: 70px;
+}
+.contain .contain-order {
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 15px 12px;
+  padding: 15px 0 15px 48px;
+  background: #fff;
+}
+.contain .contain-order ul::before {
+  background-color: transparent;
+}
+.contain .contain-order ul::after {
+  background-color: transparent;
+}
+.contain .contain-order ul li {
+  padding: 11px 10px;
+}
+.contain .contain-order .contain-title p {
+  font: 400 15px/20px "Microsoft YaHei";
+}
+.contain .contain-order .contain-title p:last-child {
+  padding-top: 5px;
+  color: #f91108;
+}
+.contain .contain-order .contain-title p:last-child span {
+  float: right;
+  font-size: 12px;
+  color: #666;
+}
+.contain .contain-order .contain-title p:last-child::before {
+  content: '¥';
+  color: #f91108;
+  font-size: 12px;
+}
+.contain .contain-order .contain-title p:last-child::after {
+  content: '¥199.00';
+  text-decoration: line-through;
+  color: #666;
+  padding-left: 5px;
+  font-size: 12px;
+}
+.footer-order {
+  width: 100%;
+  background: #f9f2d1;
+  position: fixed;
+  padding-left: 15px;
+  left: 0;
+  bottom: 45px;
+  z-index: 99;
+  height: 32px;
+  color: #dd524d;
+  font: 700 16px/32px "Microsoft YaHei";
+}
+.footer-order button {
+  font-size: 16px;
+  float: right;
+  width: 100px;
+  letter-spacing: 2px;
+}
